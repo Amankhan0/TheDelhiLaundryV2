@@ -28,7 +28,7 @@ const Location = () => {
                   <MapPin />
                   <p className="text-base">{ele.address}</p>
                 </div>
-                <p className="text-base">{ele.city}, {ele.state} - {ele.pincode}</p>
+                <p className="text-base">{ele.city} {ele.state} - {ele.pincode}</p>
                 <div className="flex justify-between">
                   <div>
                     <p className="text-lg mt-5">{ele.openDay}</p>

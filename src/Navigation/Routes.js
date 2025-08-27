@@ -5,6 +5,7 @@ import About from '../WebView/About/About'
 import Blogs from '../WebView/Blogs/Blogs'
 import Service from '../WebView/Service/Service'
 import Location from '../WebView/Location/Location'
+import ContactUs from '../WebView/ContactUs/ContactUs'
 
 export default function CustomRoutes() {
     return (
@@ -14,6 +15,7 @@ export default function CustomRoutes() {
             <Route path="/service" exact element={<Service />} />
             <Route path="/location" exact element={<Location />} />
             <Route path="/blogs" exact element={<Blogs />} />
+            <Route path="/contact" exact element={<ContactUs />} />
         </Routes>
     )
 }

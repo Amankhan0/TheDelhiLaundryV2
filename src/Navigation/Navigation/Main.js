@@ -65,7 +65,7 @@ export default function Main() {
     setPath(location.pathname);
   }, [location.pathname, reduxSidebar, theme, render])
 
-  
+
   return (
     <div className='text-black bg-white dark:text-white dark:bg-black'>
       <div className={reduxSidebar?.doc}>
@@ -96,11 +96,11 @@ export default function Main() {
               <div className='flex'>
                 <div className='flex gap-2 items-center mr-10'>
                   <Phone size={15} />
-                  <p>+65 256-8625</p>
+                  <p>+91 70110 98300</p>
                 </div>
                 <div className='flex gap-2 items-center mr-10'>
                   <Mail size={15} />
-                  <p>laundryhub@gmail.com</p>
+                  <p>thedelhilaundry.com</p>
                 </div>
               </div>
             </div>
@@ -127,16 +127,18 @@ export default function Main() {
                         <NavLink className={`${path === '/' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white font-semibold text-base`} to='/'>Home</NavLink>
                         <NavLink className={`${path === '/location' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white font-semibold text-base`} to='/location'>Locations</NavLink>
                         <NavLink className={`${path === '/service' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white font-semibold text-base`} to='/service'>Services</NavLink>
-                        <NavLink className={`${path === '/about' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white font-semibold text-base`}to="/about">About us</NavLink>
+                        <NavLink className={`${path === '/about' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white font-semibold text-base`} to="/about">About us</NavLink>
                         <NavLink className={`${path === '/blogs' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white`} to='/blogs'>Blogs</NavLink>
                       </>
                     }
                   </div>
                 </div>
                 <div className='self-center flex gap-6 items-center'>
-                  <div className='text-white text-center text-lg rounded-lg bg-mainColorLightBlue w-[120px] p-2'>
-                    <p>Contact</p>
-                  </div>
+                  <NavLink to='/contact'>
+                    <div className='text-white text-center text-lg rounded-lg bg-mainColorLightBlue w-[120px] p-2'>
+                      <p>Contact</p>
+                    </div>
+                  </NavLink>
                   <Switcher size={window.innerWidth > 500 ? 26 : 20} />
                 </div>
               </div>

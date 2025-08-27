@@ -6,6 +6,8 @@ import HowItWork from "../../Component/HowItWork";
 import OurBenifits from "../../Component/OurBenifits";
 import OurTestimonial from "../../Component/OurTestimonial";
 import AnimatedSection from "./AnimatedSection";
+import OfferCard from "../../Component/OfferCard";
+import FAQCard from "../../Component/FAQCard";
 
 const Home = () => {
   return (
@@ -83,6 +85,16 @@ const Home = () => {
           <OurTestimonial />
         </div>
       </AnimatedSection>
+
+      {/* {Offer Page} */}
+      <div className="m-10 mt-40">
+        <OfferCard />
+      </div>
+
+      {/* {FAQ Page} */}
+      <div className="m-10 mt-40">
+        <FAQCard />
+      </div>
     </div>
   );
 };

@@ -35,7 +35,7 @@ export default function OurTestimonial() {
                                             <p className="text-lg mt-5">{ele.description}</p>
                                             <div className="mt-[13%] flex justify-between flex-wrap gap-5 items-center">
                                                 <div>
-                                                    <p>{ele.name}</p>
+                                                    <p className="text-xl font-bold">{ele.name}</p>
                                                     <p>{ele.designation}</p>
                                                 </div>
                                                 <div className="flex gap-1">
