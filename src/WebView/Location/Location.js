@@ -1,5 +1,5 @@
 import React from "react";
-import { HomePageText10, HomePageText11, HomePageText36, HomePageText37, HomePageText8, HomePageText9, LocationData } from "../../Constant/AllWebsite";
+import { HomePageText10, HomePageText11, HomePageText36, HomePageText37, HomePageText44, HomePageText8, HomePageText9, LocationData } from "../../Constant/AllWebsite";
 import { ArrowBigDown, MapPin } from "lucide-react";
 
 const Location = () => {
@@ -13,6 +13,10 @@ const Location = () => {
         <div className="flex gap-3 justify-center mb-5">
           <p className="text-4xl font-bold">{HomePageText37}</p>
         </div>
+        <div className="flex gap-3 justify-center mb-5">
+          <p className="text-xl">{HomePageText44}</p>
+        </div>
+         
       </center>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 md:mx-20 lg:mx-20 mt-10">
         {

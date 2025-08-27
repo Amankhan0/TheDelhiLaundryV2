@@ -1,3 +1,5 @@
+import { Phone } from "lucide-react"
+
 export const MainLightBlueColor = '#1BB2B1'
 
 
@@ -8,12 +10,12 @@ export const HomePageText1 = 'Modern Machines, Faster Wash'
 export const HomePageText2 = "Delhi’s Trusted"
 export const HomePageText3 = "Laundry!"
 export const HomePageText4 = 'Fast, reliable, eco-friendly care. Free pickup & delivery.'
-export const ScheduleButtonText = 'Schedule A Pickup.'
+export const ScheduleButtonText = 'Book Your Laundry Pickup'
 
 // Home second page 
 export const HomePageText5 = 'Affordable cleaning solutions'
 export const HomePageText6 = 'FIND A LAUNDRY NEAR YOU'
-export const HomePageText7 = "We make doing laundry easy with modern machines, a comfortable space, and multiple locations. Whether you're washing a few items or a big load, we’ve got everything you need for a quick and hassle-free laundry experience."
+export const HomePageText7 = "The Delhi Laundry makes washing easy with modern machines, eco-friendly care,and free pickup & delivery across Delhi. Whether it's a few clothes or a heavy load, we provide a quick, affordable, and hassle-free laundry service near you."
 export const FindNearsetLocationButtonText = 'Find Your Nearest Location'
 export const mapImage = 'https://framerusercontent.com/images/ZwrjSqcGbxKjqBAPHlw9XkAonkQ.png?scale-down-to=1024'
 
@@ -21,56 +23,61 @@ export const mapImage = 'https://framerusercontent.com/images/ZwrjSqcGbxKjqBAPHl
 export const HomePageText8 = 'Services'
 export const HomePageText9 = 'Our Laundry'
 export const HomePageText10 = 'Services'
-export const HomePageText11 = 'While we can customize your cleaning plan to suit your needs, most clients schedule regular cleaning services:'
+export const HomePageText11 = 'While we can customize your laundry and dry cleaning plan to match your needs,most customers in Delhi schedule regular wash, fold, and ironing services forconvenience.'
 
 export const ServiceData = [
     {
         img:"https://framerusercontent.com/images/u8glprt7QGiaxegYOoVMN1LQxQ.png?scale-down-to=1024",
-        title:"Self-Service Laundry",
-        description:"Use modern, high-capacity washers and dryers for a quick and smooth laundry process."
+        title:"Pick & Drop Service",
+        description:"Hassle-free doorstep laundry pickup and delivery in Delhi for fresh, clean clothes—quick and convenient."
     },
     {
         img:"https://framerusercontent.com/images/yK99FKksn0SziSGfKcVUIcCibqU.jpg?scale-down-to=1024",
-        title:"Pick & Drop Service",
-        description:"Convenient doorstep laundry pickup and delivery for clean, fresh clothes without effort."
+        title:"Laundry Express",
+        description:"Fast and efficient express wash-and-dry service in Delhi for busy schedules and urgent laundry needs."
     },
     {
         img:"https://framerusercontent.com/images/vvmmP1YFmfvJ9YaUBFIKhNeV2s.jpg?scale-down-to=1024",
-        title:"Laundry Express",
-        description:"Fast and efficient wash-and-dry service for busy schedules and quick needs."
-    },
-    {
-        img:"https://framerusercontent.com/images/wgAiMcd2q4u0SyOo60S9q3zZD0.jpg?scale-down-to=1024",
         title:"Ironing Service",
-        description:"Get crisp, wrinkle-free clothes with professional ironing for a polished appearance."
+        description:"Get crisp, wrinkle-free clothes with professional ironing service in Delhi for a neat, polished look."
     },
     {
         img:"https://framerusercontent.com/images/FqMhgw7Akbwlshuk7cfETGQI.jpg?scale-down-to=1024",
         title:"Dry Cleaning",
-        description:"Specialized cleaning for delicate fabrics, suits, and premium garments with expert care."
+        description:"Specialized dry cleaning service in Delhi for delicate fabrics, suits, sarees, and premium garments with expert care."
+    },
+    {
+        img:"https://framerusercontent.com/images/vvmmP1YFmfvJ9YaUBFIKhNeV2s.jpg?scale-down-to=1024",
+        title:"Shoes Dry Cleaning",
+        description:"Professional shoe dry cleaning in Delhi—removes dirt, stains, and odors to restore your footwear's freshness."
+    },
+    {
+        img:"https://framerusercontent.com/images/vvmmP1YFmfvJ9YaUBFIKhNeV2s.jpg?scale-down-to=1024",
+        title:"Steam Press",
+        description:"Gentle steam press service in Delhi for a smooth, polished finish without damaging delicate fabrics."
     }
 ]
 
 {/* Home Fourth page  */}
 export const HomePageText12 = 'How it works'
 export const HomePageText13 = 'How Our Pick & Drop Service Works'
-export const HomePageText14 = 'While we can customize your cleaning plan to suit your needs, most clients schedule regular cleaning services:'
+export const HomePageText14 = 'While we can customize your laundry plan in Delhi to fit your needs, most clients schedule regular pickup and delivery laundry services for convenience.'
 export const HowItWorkStepsData = [
     {
         title:'Schedule a Pickup',
-        description:'Cutting-edge tools for modern project management needs.'
+        description:'Book your laundry pickup in Delhi easily through call, WhatsApp, or online request.'
     },
     {
         title:'We Pick Up Your Laundry',
-        description:'Our team arrives at your location to collect your clothes safely.'
+        description:'Our team arrives at your doorstep on time to collect your clothes safely.'
     },
     {
         title:'Expert Cleaning & Care',
-        description:'We wash, dry, and fold your laundry with the highest quality standards.'
+        description:'We wash, fold, and iron your clothes using modern machines and eco-friendly detergents.'
     },
     {
         title:'Delivery to Your Doorstep',
-        description:'Your fresh, clean clothes are delivered back to you—ready to wear!'
+        description:'Get your fresh, clean, and ready-to-wear clothes delivered back—fast and hassle-free.'
     }
     
 
@@ -78,21 +85,21 @@ export const HowItWorkStepsData = [
 
 // Home fifth page 
 export const HomePageText15 = 'Our Benefits'
-export const HomePageText16 = 'Why Choose'
-export const HomePageText17 = 'LaundryHub?'
-export const HomePageText18 = 'While we can customize your cleaning plan to suit your needs, most clients schedule regular cleaning services:'
+export const HomePageText16 = 'Why Choose The'
+export const HomePageText17 = 'Delhi Laundry?'
+export const HomePageText18 = 'While we can customize your laundry and dry cleaning plan to fit your needs, most clients in Delhi prefer our regular pickup and delivery laundry services for convenience.'
 export const HomePageText19 = 'Time-Saving Solutions'
-export const HomePageText20 = 'We streamline the laundry process to make your life easier and hassle-free.'
+export const HomePageText20 = 'We streamline the laundry process to make your life easier and hassle-free'
 export const HomePageText21 = 'Fast & Efficient Machines'
 export const HomePageText22 = 'High-capacity washers and dryers for quick, smooth, and hassle-free laundry.'
-export const HomePageText23 = 'Entertainment & Free Wi-Fi'
-export const HomePageText24 = 'Enjoy seamless connectivity and entertainment while waiting for your laundry.'
-export const HomePageText25 = 'Eco-Friendly Cleaning'
-export const HomePageText26 = 'We use environmentally safe methods that are tough on stains yet gentle on fabrics.'
-export const HomePageText27 = 'Trusted Expertise'
-export const HomePageText28 = 'Our experienced team ensures reliable service with consistently great results.'
-export const HomePageText29 = 'Friendly & Helpful Staff'
-export const HomePageText30 = 'Our team ensures a smooth experience with always clean facilities.'
+export const HomePageText23 = 'Eco-Friendly Cleaning'
+export const HomePageText24 = 'We use environmentally safe methods that are tough on stains yet gentle on fabrics.'
+export const HomePageText25 = 'Trusted Expertise'
+export const HomePageText26 = 'Our experienced team ensures reliable service with consistently great results.'
+export const HomePageText27 = 'Friendly & Helpful Staff'
+export const HomePageText28 = 'Our team ensures a smooth experience with always clean facilities.'
+export const HomePageText29 = 'Full Support in Chat & Call'
+export const HomePageText30 = 'Get instant assistance and updates with our dedicated customer support on WhatsApp and phone calls.'
 
 
 
@@ -102,63 +109,39 @@ export const HomePageText31 = 'Our Testimonials'
 export const HomePageText32 = 'What Our Happy'
 export const HomePageText33 = 'Customers'
 export const HomePageText34 = 'Say'
-export const HomePageText35 = 'At LaundryHub, we prioritize customer satisfaction. Thousands trust us for fresh, clean laundry daily. See their experiences!'
+export const HomePageText35 = 'At The Delhi Laundry, we prioritize customer satisfaction. Thousands across Delhi trust us for fresh, clean laundry daily. Hear their experiences!'
 export const StaffData = [
-    {
-        name:'Emily R.',
-        designation:'Marketing Manager',
-        star:'4',
-        description:'LaundryHub provides excellent service! My clothes are always fresh, neatly folded, and delivered on time.',
-        image:'https://framerusercontent.com/images/aqYGnQYvGUpBszdWYO6mVHpbY.png'
-    },
-    {
-        name:'Mark T.',
-        designation:'Business Owner',
-        star:'4',
-        description:'The best laundromat in town! Modern machines, friendly staff, and a smooth experience every time.',
-        image:'https://framerusercontent.com/images/e9RsMYqj4WrAeI4NmtnDyx1kqg.png'
-    },
-    {
-        name:'David W.',
-        designation:'Software Engineer',
-        star:'4',
-        description:'LaundryHub’s pickup and delivery service is a lifesaver! Super convenient and reliable.',
-        image:'https://framerusercontent.com/images/eibaZcQ3NT0wIZCdLe7ly758Zis.png'
-    },
-    {
-        name:'Sophia L.',
-        designation:'Fashion Designer',
-        star:'4',
-        description:'Impressed with their stain removal service! LaundryHub saved my favorite dress.',
-        image:'https://framerusercontent.com/images/FzaiOVK7NsW5XhqZG0rWGgbF7A.png'
-    }
+   {
+        description:'I will share soon'
+   }
 ]
 
 // Location Page 
 export const HomePageText36 = 'Location'
 export const HomePageText37 = 'FIND A LAUNDRY NEAR YOU'
+export const HomePageText44 = 'Book The Delhi Laundry’s pickup & delivery service near you for fresh, clean clothes without hassle.'
 export const LocationData = [
     {
-        category:'Downtown',
-        address:'123 Main St',
-        landmark:'Next to city mall',
-        city:'janakpuri',
-        state:'Delhi',
-        pincode:'110077',
+        category:'West Delhi',
+        address:'J-17, Old Market,',
+        landmark:'Bandar Wali Khu,',
+        city:'Ramesh Nagar,',
+        state:'New Delhi ',
+        pincode:'110015',
         country:'India',
         openDay:'Monday - Sunday',
-        workingHour:'6:00 AM - 11:00 PM'
+        workingHour:'10:00 AM – 10:00 PM'
     },
     {
-        category:'Downtown',
-        address:'123 Main St',
-        landmark:'Next to city mall',
-        city:'janakpuri',
+        category:'South West Delhi',
+        address:'RZ- D 57A, near Nala Road,',
+        landmark:'Block A, Sitapuri Part 1,',
+        city:' Sitapuri',
         state:'Delhi',
-        pincode:'110077',
+        pincode:'110045',
         country:'India',
         openDay:'Monday - Sunday',
-        workingHour:'6:00 AM - 11:00 PM'
+        workingHour:'10:00 AM – 10:00 PM'
     }
 ]
 
@@ -171,7 +154,7 @@ export const HomePageText40 = 'Laundry Hub'
 export const AboutPageImage1 = 'https://framerusercontent.com/images/pCq5gTtRIjFiwFRqz0gC5pZBTMA.png?scale-down-to=2048'
 export const AboutPageImage2 = 'https://framerusercontent.com/images/o06A31veSqWEtnhQ7vLii20IcVw.png?scale-down-to=2048'
 export const AboutPageImage3 = 'https://framerusercontent.com/images/dDRDt0X5W2orex4p6orPVIb778.png?scale-down-to=2048'
-export const AboutDescription = "At LaundryHub, we believe laundry should be simple, convenient, and stress-free. With our state-of-the-art machines, expert care, and customer-first approach, we provide top-quality laundry solutions that fit your lifestyle. Whether you need self-service, drop-off, dry cleaning, or commercial laundry, we’ve got you covered!"
+export const AboutDescription = "At The Delhi Laundry, we believe laundry should be simple, convenient, and stress-free. With our modern machines, expert care, and customer-first approach, we deliver top-quality laundry and dry cleaning services in Delhi that fit your lifestyle. Whether you need wash & fold, wash & iron, dry cleaning, shoe cleaning, or steam press, we’ve got you covered—with free pickup & delivery across Delhi!"
 
 
 
