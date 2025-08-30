@@ -247,3 +247,11 @@ export const faqs = [
 export const Contact = 'Contact Us'
 export const ContactTitle = 'Get in Touch with Us'
 export const ContactDes = 'Have questions or need assistance? At The Delhi Laundry, we’re always here to help. Whether it’s an inquiry, support, or a service request, reach out to us anytime—we’re just a call or message away!'
+
+
+
+export const redirectToWhatsapp = () =>{
+   const encodedMessage = encodeURIComponent('Hello 👋, thank you for contacting The Delhi Laundry 🧺!We’re here to make your laundry simple and stress-free. Kindly let us know how we can help you today.'); // special characters ko encode karna
+    const url = `https://wa.me/7011098300?text=${encodedMessage}`;
+    window.open(url, "_blank"); // nayi tab me open kare
+}

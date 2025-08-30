@@ -6,7 +6,7 @@ import Links from '../Links';
 import { setSidebar } from '../../Store/Action/Sidebar/SidebarAciton';
 import Switcher from '../../Component/Switcher';
 import { NavLink, useLocation } from "react-router-dom";
-import { MainLogo } from '../../Constant/AllWebsite';
+import MainLogo from '../../logowhite.png';
 import { Mail, Phone } from 'lucide-react';
 import Footer from './Footer';
 
@@ -73,7 +73,7 @@ export default function Main() {
           <div className="sidebar sidebar-panel print:hidden">
             <div className="flex h-full grow flex-col border-r border-slate-150 bg-white dark:border-navy-700 dark:bg-navy-750">
               <div className="flex justify-between px-3 pt-4 pb-2" style={{ borderBottom: '1px solid lightgrey' }}>
-                <img className={'w-[50%] h-[70%] self-center'} src={theme === 'light' ? MainLogo : MainLogo} />
+                <img className={'w-[20%] h-[50%] self-center'} src={theme === 'light' ? MainLogo : MainLogo} />
                 <button className="sidebar-toggle ml-0.5 flex h-7 w-7 flex-col justify-center space-y-1.5 text-primary outline-none focus:outline-none dark:text-accent-light/80" onClick={() => handleSidebar(reduxSidebar.doc === 'is-sidebar-open' ? '' : 'is-sidebar-open')}>
                   <span></span>
                   <span></span>
@@ -92,13 +92,13 @@ export default function Main() {
             </div>
           </div>
           <nav className=" header  print:hidden relative flex flex-col" style={{ zIndex: 1000 }}>
-            <div className='bg-mainColorLightBlue text-white flex justify-end p-1'>
-              <div className='flex'>
-                <div className='flex gap-2 items-center mr-10'>
+            <div className='bg-mainColorLightBlue text-white flex justify-end p-2'>
+              <div className='flex gap-5 mr-5'>
+                <div className='flex gap-2 items-center'>
                   <Phone size={15} />
                   <p>+91 70110 98300</p>
                 </div>
-                <div className='flex gap-2 items-center mr-10'>
+                <div className='flex gap-2 items-center'>
                   <Mail size={15} />
                   <p>thedelhilaundry.com</p>
                 </div>
@@ -115,8 +115,8 @@ export default function Main() {
                       <span></span>
                     </button>
                   }
-                  <div>
-                    <img className={'w-[150px]'} src={theme === 'light' ? MainLogo : MainLogo} />
+                  <div style={{marginTop:window.innerWidth > 600 ?"20px":'',marginLeft:window.innerWidth > 600 ?"30px":''}}>
+                    <img className={window.innerWidth > 600 ? 'w-[100px]' : 'w-[70px]'} src={theme === 'light' ? MainLogo : MainLogo} />
                   </div>
                 </div>
                 <div className="-mr-1.5 flex items-center space-x-2">

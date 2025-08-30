@@ -10,8 +10,8 @@ export default function MyService() {
                     <p>{HomePageText8}</p>
                 </div>
                 <div className="flex gap-3 justify-center mb-5">
-                    <p className="text-2xl md:text-4xl lg:text-4xl font-bold">{HomePageText9}</p>
-                    <p className="text-2xl md:text-4xl lg:text-4xl font-bold text-mainColorLightBlue">{HomePageText10}</p>
+                    <p className={`text-${window.innerWidth > 500?'4xl':'xl'} font-bold`}>{HomePageText9}</p>
+                    <p className={`text-${window.innerWidth > 500?'4xl':'xl'} font-bold text-mainColorLightBlue`}>{HomePageText10}</p>
                 </div>
                 <div>
                     <p className="text-lg md:w-1/2 lg:w-1/2">{HomePageText11}</p>
@@ -24,8 +24,10 @@ export default function MyService() {
                             <AnimatedSection>
                             <div className="border border-slate-100 md:p-5 lg:p-5 rounded-xl">
                                 <img className="w-full h-[30vh] rounded-xl" src={ele.img} />
-                                <p className="text-2xl font-bold my-2">{ele.title}</p>
+                                <div className="p-4">
+                                    <p className="text-2xl font-bold my-2">{ele.title}</p>
                                 <p>{ele.description}</p>
+                                </div>
                             </div>
                             </AnimatedSection>
                         )

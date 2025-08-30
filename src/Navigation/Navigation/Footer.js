@@ -1,5 +1,5 @@
 import React from "react";
-import { MainLogo } from "../../Constant/AllWebsite";
+import logo from "../../logowhite.png";
 import { Mail, Phone } from "lucide-react";
 
 const Footer = () => {
@@ -8,9 +8,9 @@ const Footer = () => {
 
     return (
         <div>
-            <div className="md:grid lg:grid md:grid-cols-12 lg:grid-cols-12 gap-10 p-20">
+            <div className="md:grid lg:grid md:grid-cols-12 lg:grid-cols-12 gap-10 p-5">
                 <div className="col-span-6">
-                    <img className={'w-[150px]'} src={theme === 'light' ? MainLogo : MainLogo} />
+                    <img className={'w-[150px]'} src={logo} />
                     <p className="text-lg mt-5">Fast, reliable, and hassle-free laundry <br />services tailored for your convenience.</p>
                 </div>
                 <div className="col-span-2 mt-5">
@@ -30,7 +30,7 @@ const Footer = () => {
                     <p className="text-lg mt-3"><Mail /></p>
                 </div>
             </div>
-            <div className="border-t border-gray-200 mx-10 p-5 -mt-10 text-center">
+            <div className="border-t border-gray-200 mx-10 p-5 text-center">
                 <p>Build by Framer Geeks, a part of Saeculum Solutions.</p>
             </div>
         </div>

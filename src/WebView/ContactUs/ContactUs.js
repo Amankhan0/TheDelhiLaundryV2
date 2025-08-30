@@ -44,9 +44,9 @@ const ContactUs = () => {
                     <div style={{ display: "flex", alignItems: "center", marginBottom: "12px" }}>
                         <span style={{ fontSize: "18px", marginRight: "10px" }}>🌐</span>
                         <p style={{ margin: 0, fontSize: "14px", color: "#333" }}>
-                            <strong>Website:</strong>{" "}
+                            <strong>Gmail:</strong>{" "}
                             <a href="https://thedelhilaundry.com" style={{ color: "#1db5a3", textDecoration: "none" }}>
-                                thedelhilaundry.com
+                                thedelhilaundry@gmail.com
                             </a>
                         </p>
                     </div>

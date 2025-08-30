@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { HomePageText12, HomePageText13, HomePageText14, HomePageText8, HowItWorkStepsData, ScheduleButtonText, ServiceData } from "../Constant/AllWebsite";
+import { HomePageText12, HomePageText13, HomePageText14, HomePageText8, HowItWorkStepsData, redirectToWhatsapp, ScheduleButtonText, ServiceData } from "../Constant/AllWebsite";
 import { Truck } from "lucide-react";
 import AnimatedSection from "../WebView/Home/AnimatedSection";
 
@@ -12,7 +12,7 @@ export default function HowItWork() {
                 </div>
                 <p className="text-3xl font-bold my-4">{HomePageText13}</p>
                 <p>{HomePageText14}</p>
-                <div className="bg-mainColorLightBlue p-3 w-max items-center text-white mt-10 rounded-lg flex justify-center gap-2">
+                <div onClick={()=>redirectToWhatsapp()} className="cursor-pointer bg-mainColorLightBlue p-3 w-max items-center text-white mt-10 rounded-lg flex justify-center gap-2">
                     <Truck />
                     <p className="text-lg">{ScheduleButtonText}</p>
                 </div>

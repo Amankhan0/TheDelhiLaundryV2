@@ -1,7 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import logo from '../Artboard 2.png';
-import logoWhite from '../logowhite.png';
+import logo from '../logowhite.png';
 import { faceBookIcon, instaIcon, linkdinIcon } from "../Constant/Icons/Icon";
 import { NavLink } from "react-router-dom";
 import Switcher from "../Component/Switcher";
@@ -39,7 +38,7 @@ const Footer = () => {
             </div>
             <div className="card p-3 dark:bg-black">
                 <div className="flex justify-center gap-5 items-center">
-                    <img className='w-[16vw] h-[4vw] lg:w-[5vw] lg:h-[1vw] text-black' src={reduxSidebar?.theme === 'light' ? logoWhite : logo} />
+                    <img className='w-[16vw] h-[4vw] lg:w-[5vw] lg:h-[1vw] text-black' src={logo} />
                     <p className="text-[3.5vw] lg:text-[1vw] text-black dark:text-white">Copyright @2025; Design by Aman Khan</p>
                 </div>
             </div>

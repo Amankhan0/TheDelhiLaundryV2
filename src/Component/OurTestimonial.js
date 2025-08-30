@@ -11,9 +11,9 @@ export default function OurTestimonial() {
                     <p>{HomePageText31}</p>
                 </div>
                 <div className="flex gap-3 justify-center mb-5">
-                    <p className="text-sm md:text-4xl lg:text-4xl font-bold">{HomePageText32}</p>
-                    <p className="text-sm md:text-4xl lg:text-4xl font-bold text-mainColorLightBlue">{HomePageText33}</p>
-                    <p className="text-sm md:text-4xl lg:text-4xl font-bold">{HomePageText34}</p>
+                    <p className="text-lg md:text-4xl lg:text-4xl font-bold">{HomePageText32}</p>
+                    <p className="text-lg md:text-4xl lg:text-4xl font-bold text-mainColorLightBlue">{HomePageText33}</p>
+                    <p className="text-lg md:text-4xl lg:text-4xl font-bold">{HomePageText34}</p>
                 </div>
                 <div>
                     <p className="text-lg md:w-1/2 lg:w-1/2">{HomePageText35}</p>

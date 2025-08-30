@@ -11,8 +11,8 @@ export default function OurBenifits() {
                     <p>{HomePageText15}</p>
                 </div>
                 <div className="flex gap-3 justify-center mb-5">
-                    <p className="text-xl md:text-4xl lg:text-4xl font-bold">{HomePageText16}</p>
-                    <p className="text-xl md:text-4xl lg:text-4xl font-bold text-mainColorLightBlue">{HomePageText17}</p>
+                    <p className={`text-${window.innerWidth > 500?'4xl':'lg'} font-bold`}>{HomePageText16}</p>
+                    <p className={`text-${window.innerWidth > 500?'4xl':'lg'} font-bold text-mainColorLightBlue`}>{HomePageText17}</p>
                 </div>
                 <div>
                     <p className="text-lg md:w-1/2 lg:w-1/2">{HomePageText18}</p>
