@@ -18,7 +18,7 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
           <div className="mt-[10%] md:ml-20 lg:ml-20">
             <p className="text-lg font-bold mb-8">{HomePageText1}</p>
-            <h1 className="text-[5xl] mb-5 font-bold">{HomePageText2}</h1>
+            <h1 className="text-5xl mb-5 font-bold">{HomePageText2}</h1>
             <h1 className="text-5xl mb-5 font-bold text-mainColorLightBlue">{HomePageText3}</h1>
             <h1 className="text-4xl text-slate-400 font-bold">{HomePageText4}</h1>
             <div onClick={()=>redirectToWhatsapp()} className="cursor-pointer bg-mainColorLightBlue p-3 w-max items-center text-white mt-10 rounded-lg flex justify-center gap-2 hover:scale-105 transition-transform">
