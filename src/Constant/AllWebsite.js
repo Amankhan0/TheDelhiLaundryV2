@@ -232,12 +232,12 @@ export const FAQDes = 'At The Delhi Laundry, we care about customer satisfaction
 
 
 export const faqs = [
-    { q: "How does LaundryHub’s service work?", a: "We pick up your laundry, clean it professionally, and deliver it back fresh and folded." },
-    { q: "Do you offer pick-up and delivery services?", a: "Yes, we offer free pick-up and delivery for all our customers." },
-    { q: "What types of laundry can you clean?", a: "We handle clothes, bed sheets, curtains, and more." },
-    { q: "How long does the laundry process take?", a: "Generally, 24-48 hours depending on the load and type of service." },
-    { q: "Are your cleaning products safe for sensitive skin?", a: "Yes, we use eco-friendly and skin-safe detergents." },
-    { q: "What payment methods do you accept?", a: "We accept cash, cards, and online payments." }
+    { q: "Do you provide free pickup and delivery laundry service in Delhi?", a: "Yes! We offer free pickup and delivery laundry service in Delhi NCR, making your laundry completely hassle-free." },
+    { q: "What services do you provide apart from washing clothes?", a: "We provide wash & fold, wash & iron, dry cleaning, steam ironing, shoe cleaning, and premium laundry services for all types of clothes, bedding, and household items." },
+    { q: "How can I schedule my laundry pickup?", a: "You can easily schedule laundry pickup online, via WhatsApp, or by calling our helpline number. We provide convenient time slots as per your availability." },
+    { q: "Do you offer same-day or express laundry service in Delhi?", a: "Yes, we offer same-day laundry service in Delhi and express delivery options so you can get your clothes cleaned, fresh, and ready within hours." },
+    { q: "Are my clothes handled safely and hygienically?", a: "Absolutely. We use eco-friendly detergents, advanced washing machines, and hygienic laundry processes to ensure your clothes are safe, fresh, and well-maintained." },
+    { q: "Do you provide ironing services along with laundry?", a: "Yes. We provide professional ironing services in Delhi. In fact, ironing is free with your first order at The Delhi Laundry." }
 ];
 
 

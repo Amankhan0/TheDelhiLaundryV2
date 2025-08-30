@@ -128,7 +128,7 @@ export default function Main() {
                         <NavLink className={`${path === '/location' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white font-semibold text-base`} to='/location'>Locations</NavLink>
                         <NavLink className={`${path === '/service' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white font-semibold text-base`} to='/service'>Services</NavLink>
                         <NavLink className={`${path === '/about' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white font-semibold text-base`} to="/about">About us</NavLink>
-                        <NavLink className={`${path === '/blogs' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white`} to='/blogs'>Blogs</NavLink>
+                        <NavLink className={`${path === '/blogs' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white font-semibold`} to='/blogs'>Blogs</NavLink>
                       </>
                     }
                   </div>
