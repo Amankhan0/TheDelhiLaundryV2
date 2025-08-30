@@ -176,10 +176,10 @@ export const Our = "Our"
 
 export const BlogsData = [
     {
-        category: "Blog 1",
-        title: 'What is Lorem Ipsum?',
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        image: 'https://www.themodelskit.co.uk/wp-content/uploads/2021/01/shutterstock_439389118-1024x616.jpg'
+        category: "Laundry Service / Home Services in Delhi NCR",
+        title: 'Best Laundry Service in Delhi – Wash, Fold & Iron with Free Pickup and Delivery',
+        description: "The Delhi Laundry offers the best laundry service in Delhi with wash, fold, and ironing solutions designed to make your life easier. With free pickup and delivery across Delhi NCR, we ensure your clothes are cleaned with high-quality detergents, handled with expert care, and delivered fresh and ready to wear. From daily wear to delicate fabrics, dry cleaning, shoe cleaning, and even blanket care, our professional team makes laundry stress-free and affordable. Enjoy same-day laundry service on request and get free ironing on your first order—because fresh clothes and more free time should always be this simple.",
+        image: 'https://www.dooncircle.com/wp-content/uploads/2018/02/laundryservice.jpg'
     },
     {
         category: "Blog 2",
