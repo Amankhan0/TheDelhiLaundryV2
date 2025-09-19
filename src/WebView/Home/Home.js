@@ -1,5 +1,5 @@
 import React from "react";
-import { FindNearsetLocationButtonText, HomePageText1, HomePageText2, HomePageText3, HomePageText4, HomePageText5, HomePageText6, HomePageText7, MainVideo, mapImage, redirectToWhatsapp, ScheduleButtonText } from "../../Constant/AllWebsite";
+import { FindNearsetLocationButtonText, HomePageText1, HomePageText2, HomePageText3, HomePageText4, HomePageText5, HomePageText6, HomePageText7, MainVideo, mapImage, ratingPeople, ratingText1, ratingText2, redirectToWhatsapp, ScheduleButtonText } from "../../Constant/AllWebsite";
 import { MapPin, Truck } from "lucide-react";
 import MyService from "../../Component/MyService";
 import HowItWork from "../../Component/HowItWork";
@@ -21,20 +21,32 @@ const Home = () => {
             <h1 className="text-5xl mb-5 font-bold">{HomePageText2}</h1>
             <h1 className="text-5xl mb-5 font-bold text-mainColorLightBlue">{HomePageText3}</h1>
             <h1 className="text-4xl text-slate-400 font-bold">{HomePageText4}</h1>
-            <div onClick={()=>redirectToWhatsapp()} className="cursor-pointer bg-mainColorLightBlue p-3 w-max items-center text-white mt-10 rounded-lg flex justify-center gap-2 hover:scale-105 transition-transform">
+            <div onClick={() => redirectToWhatsapp()} className="cursor-pointer bg-mainColorLightBlue p-3 w-max items-center text-white mt-10 rounded-lg flex justify-center gap-2 hover:scale-105 transition-transform">
               <Truck />
               <p className="text-lg">{ScheduleButtonText}</p>
             </div>
+            <div className="mt-10">
+              <div className="flex gap-5 items-center">
+                <div className="flex">
+                  {
+                    ratingPeople.map((ele, i) => {
+                      return (
+                        <div className={`${i !== 0 && '-ml-5'}`}>
+                          <img className={`w-14 h-14 rounded-full bg-slate-100`} src={ele} />
+                        </div>
+                      )
+                    })
+                  }
+                </div>
+                <div>
+                  <p className="text-base font-semibold">{ratingText1}</p>
+                  <p className="text-base text-slate-500">{ratingText2}</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div>
-            <video
-              className="rounded-3xl w-[600px] h-[600px] object-cover"
-              loop
-              autoPlay
-              muted
-              playsInline
-              src={MainVideo}
-            ></video>
+            <video className="rounded-3xl w-[600px] h-[600px] object-cover" loop autoPlay muted playsInline src={MainVideo}></video>
           </div>
         </div>
       </AnimatedSection>
@@ -45,11 +57,11 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div>
               <p className="text-lg text-gray-500 dark:text-white mb-6">{HomePageText5}</p>
-              <h1 className={`text-${window.innerWidth > 500?'5xl':'2xl'} font-bold mb-8 dark:text-white`}>{HomePageText6}</h1>
+              <h1 className={`text-${window.innerWidth > 500 ? '5xl' : '2xl'} font-bold mb-8 dark:text-white`}>{HomePageText6}</h1>
               <h1 className="text-lg text-gray-500 dark:text-white">{HomePageText7}</h1>
               <NavLink to='/location' className="bg-mainColorLightBlue dark:bg-white dark:text-black p-3 w-max items-center text-white mt-10 rounded-lg flex justify-center gap-2 hover:scale-105 transition-transform">
                 <MapPin />
-                <p className={`text-${window.innerWidth > 500?'lg':'sm'}`}>{FindNearsetLocationButtonText}</p>
+                <p className={`text-${window.innerWidth > 500 ? 'lg' : 'sm'}`}>{FindNearsetLocationButtonText}</p>
               </NavLink>
             </div>
             <div>

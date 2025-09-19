@@ -116,7 +116,9 @@ export default function Main() {
                     </button>
                   }
                   <div style={{marginTop:window.innerWidth > 600 ?"20px":'',marginLeft:window.innerWidth > 600 ?"30px":''}}>
+                    <NavLink to={'/'}>
                     <img className={window.innerWidth > 600 ? 'w-[100px]' : 'w-[70px]'} src={theme === 'light' ? MainLogo : MainLogo} />
+                    </NavLink>
                   </div>
                 </div>
                 <div className="-mr-1.5 flex items-center space-x-2">
@@ -128,7 +130,7 @@ export default function Main() {
                         <NavLink className={`${path === '/location' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white font-semibold text-base`} to='/location'>Locations</NavLink>
                         <NavLink className={`${path === '/service' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white font-semibold text-base`} to='/service'>Services</NavLink>
                         <NavLink className={`${path === '/about' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white font-semibold text-base`} to="/about">About us</NavLink>
-                        <NavLink className={`${path === '/blogs' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white font-semibold`} to='/blogs'>Blogs</NavLink>
+                        <NavLink className={`${path === '/blogs' && 'border-b border-b-mainColorLightBlue text-mainColorLightBlue dark:text-mainColorLightBlue'} dark:text-white font-semibold text-base`} to='/blogs'>Blogs</NavLink>
                       </>
                     }
                   </div>

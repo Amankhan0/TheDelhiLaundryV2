@@ -12,6 +12,13 @@ export const HomePageText3 = "Laundry!"
 export const HomePageText4 = 'Fast, reliable, eco-friendly care. Free pickup & delivery.'
 export const ScheduleButtonText = 'Book Your Laundry Pickup'
 
+export const ratingPeople = ['https://framerusercontent.com/images/AYrWbquyrtcx56nyqRCuOxgdo2U.jpg', 'https://framerusercontent.com/images/J0RttLoBr5uVros6FciNdDRxoYE.jpg', 'https://framerusercontent.com/images/bYl1b2vHnlD0CfwfvFexcFUUKvc.jpg', 'https://framerusercontent.com/images/3EVrzy6d2Uw2onpzCMEXuyHuo.jpg']
+export const ratingText1 = '4.9+⭐ Rating'
+export const ratingText2 = '1000+ Reviews'
+
+
+
+
 // Home second page 
 export const HomePageText5 = 'Affordable cleaning solutions'
 export const HomePageText6 = 'FIND A LAUNDRY NEAR YOU'
@@ -27,17 +34,17 @@ export const HomePageText11 = 'While we can customize your laundry and dry clean
 
 export const ServiceData = [
     {
-        img: "https://framerusercontent.com/images/u8glprt7QGiaxegYOoVMN1LQxQ.png?scale-down-to=1024",
+        img: "https://media.istockphoto.com/id/2158161973/photo/joyful-lady-getting-her-clothes-from-a-dry-cleaning-service-a-plastic-pouch-from-a-courier-at.jpg?s=612x612&w=0&k=20&c=OsVIiFNSUI080M67TZxfFw2V-x0W3epB8pd8NouzHYs=",
         title: "Pick & Drop Service",
         description: "Hassle-free doorstep laundry pickup and delivery in Delhi for fresh, clean clothes—quick and convenient."
     },
     {
-        img: "https://framerusercontent.com/images/yK99FKksn0SziSGfKcVUIcCibqU.jpg?scale-down-to=1024",
+        img: "https://black-and-white.co.in/wp-content/uploads/2024/04/what-is-dry-cleaning.jpg",
         title: "Laundry Express",
         description: "Fast and efficient express wash-and-dry service in Delhi for busy schedules and urgent laundry needs."
     },
     {
-        img: "https://framerusercontent.com/images/vvmmP1YFmfvJ9YaUBFIKhNeV2s.jpg?scale-down-to=1024",
+        img: "https://www.madeleylaundryanddrycleaning.co.uk/wp-content/uploads/2018/09/ironing-service-Telford.jpg",
         title: "Ironing Service",
         description: "Get crisp, wrinkle-free clothes with professional ironing service in Delhi for a neat, polished look."
     },
@@ -47,12 +54,12 @@ export const ServiceData = [
         description: "Specialized dry cleaning service in Delhi for delicate fabrics, suits, sarees, and premium garments with expert care."
     },
     {
-        img: "https://framerusercontent.com/images/vvmmP1YFmfvJ9YaUBFIKhNeV2s.jpg?scale-down-to=1024",
+        img: "https://zigwash.com/wp-content/uploads/2025/02/A-Basic-Guide-to-Keep-Your-Shoes-Clean.jpg",
         title: "Shoes Dry Cleaning",
         description: "Professional shoe dry cleaning in Delhi—removes dirt, stains, and odors to restore your footwear's freshness."
     },
     {
-        img: "https://framerusercontent.com/images/vvmmP1YFmfvJ9YaUBFIKhNeV2s.jpg?scale-down-to=1024",
+        img: "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fit,w_730,h_487/at%2Fhouse%20tours%20stock%20archive%2Ff664f03660db01b62f5617e70a70ea0a2f74036c",
         title: "Steam Press",
         description: "Gentle steam press service in Delhi for a smooth, polished finish without damaging delicate fabrics."
     }
